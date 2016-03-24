@@ -1,0 +1,68 @@
+body{
+  /*background-color: #1a1a1a;*/
+  color: #e6e6e6;
+  font-family: Arial;
+}
+
+.overall-score{
+  text-align:center;
+  margin:auto;
+  padding-top:1em;
+}
+
+#play-mat {
+
+  padding-top:3em;
+  margin:auto;
+  text-align:center;
+
+}
+
+
+html { 
+  background: url(resources/secondbackground.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.intro-text{
+  padding:2em;
+  width:40em;
+}
+
+.center-it{
+  margin:auto;
+  text-align:center;
+}
+
+#game-container {
+  width:50%;
+  padding-bottom:100vw;
+  margin:auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align:center;
+}
+
+
+#overall-score{
+  margin:auto;
+  text-align:center;
+}
+
+.button {
+  /*background-color: #1a1a1a; */
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: 2px solid #e6e6e6;
+  border-color: #e6e6e6;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+}
+

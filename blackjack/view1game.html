@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Blackjack View 1</title>
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--<link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">-->
+
+    <link rel="stylesheet" href="view1.css">
+
+    <script type="text/javascript" src="model.js"></script>
+    <script type="text/javascript" src="controller.js"></script>
+    <script type="text/javascript" src="view1.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+
+    <div id="game-container">
+
+      <div class="score-title"><h3>Overall Score: 
+        <span id="overall-score"></span>
+        </h3>
+      </div>
+
+      <div id="play-mat">
+        <div id="dealer-space">
+        </div>
+
+        <div id="dealer-score">
+        </div>
+
+        <div id="player-space"><p>Blackjack Game</p></div>
+
+        <div style="display: none;" id="winner-space"></div>
+
+        <!--Buttons-->
+
+        <div id="buttons">
+
+          <div style="display: block;" id="play-button">
+            <button class="button" id="play-btn">Let's Play!</button>
+          </div>
+
+          <div style="display: none;" id="deal-button">
+            <button class="button" id="deal-btn">Deal</button>
+          </div>
+
+          <div style="display: none;" id="hit-button">
+            <button class="button" id="hit-btn">Hit</button>
+          </div>
+
+          <div style="display: none;" id="stay-button">
+            <button class="button" id="stay-btn">Stay</button>
+          </div>
+
+          <div style="display: none;" id="toggle-ace-button">
+            <button class="button" id="toggle-ace-btn">Toggle Aces High/Low</button>
+          </div>
+
+          <div style="display: none;" id="play-again-button">
+            <button class="button" id="play-again-btn">Play Again?</button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+  </body>
+</html>
